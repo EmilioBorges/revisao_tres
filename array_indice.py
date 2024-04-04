@@ -13,14 +13,23 @@
 
 # primeiro_ultimo_nome()
 
-def segundo_terceiro_nome():
-    nome = ['Carlos','Ana','Thor','Bia']
+# def segundo_terceiro_nome():
+#     nome = ['Carlos','Ana','Thor','Bia']
 
-    print(f'2 - {nome[1]}\n3 - {nome[2]}')
+#     print(f'2 - {nome[1]}\n3 - {nome[2]}')
 
-segundo_terceiro_nome()
+# segundo_terceiro_nome()
 
+def substitui_elemento(alim_1, alim_2, alim_3):
+    alimentos= ['Arroz','Batata','Feijão']
 
+    alimentos[0] = alim_1
+    alimentos[1] = alim_2
+    alimentos[2] = alim_3
+
+    print(alimentos)
+
+substitui_elemento("Café", 'Macarrão', "Tomate")
 
 
 
