@@ -5,10 +5,22 @@
 
 # imprimir_nomes()
 
+#uestao 2
+# def primeiro_ultimo_nome():
+#     nome = ['Emilio','Ana','Thor','Bia']
 
-def primeiro_ultimo_nome():
-    nome = ['Emilio','Ana','Thor','Bia','Juliana']
+#     print(f'1 - {nome[0]}\n4 - {nome[4]}')
 
-    print(f'1 - {nome[0]}\n4 - {nome[4]}')
+# primeiro_ultimo_nome()
 
-primeiro_ultimo_nome()
+def segundo_terceiro_nome():
+    nome = ['Carlos','Ana','Thor','Bia']
+
+    print(f'2 - {nome[1]}\n3 - {nome[2]}')
+
+segundo_terceiro_nome()
+
+
+
+
+
