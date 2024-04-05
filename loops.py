@@ -14,9 +14,16 @@
 
 # limitar_contador(num_do_usuario)
 
-def tabuada_2():
+# def tabuada_2():
+#     for i in range(0,11):
+#         print(f'{i} + {2} = {i+2}')
+
+
+# tabuada_2()
+
+def multiplicar(num):
     for i in range(0,11):
-        print(f'{i} + {2} = {i+2}')
+        print(f'{num} x {i} = {i*num}')
 
-
-tabuada_2()
+num_do_usuario = int(input("Digite o numero que deseja multiplicar: "))
+multiplicar(num_do_usuario)
